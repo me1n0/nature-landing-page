@@ -101,8 +101,6 @@ nav {
     height: 40px;
     border-radius: 5px;
     padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -111,7 +109,7 @@ nav {
     box-shadow: inset 2px 2px 2px 0px #ffffff6f, 7px 7px 20px 0px #00000007, 4px 4px 5px 0px #00000012;
     outline: none;
     background-image: linear-gradient(315deg, #ffcd448f 0%, #FFCE44 74%);
-    line-height: 42px;
+    line-height: 45px;
     padding: 0;
     border: none;
 }
@@ -209,9 +207,13 @@ section {
     display: flex;
     justify-content: space-evenly;
 }
+.avatar {
+    width: 100px;
+    border-radius: 100%
+}
 
-.info {
-    max-width:  300px;
+.about-info {
+    max-width: 300px;
     margin: 30px;
 }
 
@@ -231,8 +233,36 @@ section {
     .hamburger {
         display: block;
     }
+    
+    .hero-info {
+        margin: 0 15px 30px 15px;
+        max-width: max-content;
+    }
+
+    .styled-break {
+        background-color: transparent;
+    }
 
     .hero-img {
         display: none;
+    }
+
+    .hero-btn {
+        width: 160px;
+        height: 45px;
+    }
+
+    .hero-btn a {
+        font-size: 17px;
+        letter-spacing: 0.3px;
+    }
+
+    .about-info {
+        margin: 30px;
+        max-width: max-content;
+    }
+
+    .avatar {
+        width: 130px;
     }
 }
