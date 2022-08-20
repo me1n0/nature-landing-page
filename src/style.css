@@ -60,6 +60,7 @@ nav {
     font-size: 30px;
     cursor: pointer;
     display: none;
+    color: black;
 }
 
 /* Hero */
@@ -109,7 +110,7 @@ nav {
     box-shadow: inset 2px 2px 2px 0px #ffffff6f, 7px 7px 20px 0px #00000007, 4px 4px 5px 0px #00000012;
     outline: none;
     background-image: linear-gradient(315deg, #ffcd448f 0%, #FFCE44 74%);
-    line-height: 45px;
+    line-height: 40px;
     padding: 0;
     border: none;
 }
@@ -217,6 +218,43 @@ section {
     margin: 30px;
 }
 
+/* Contact */
+form {
+    margin: 0 0 40px 0;
+}
+
+form h2 {
+    margin-left: 10px;
+}
+  
+.input-section {
+    margin: 20px 0;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    width: 250px;
+    height: 30px;
+}
+
+.br-1 {
+    display: none;
+}
+
+textarea {
+    margin: 10px;
+    width: 525px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+.submit {
+    margin-left: 10px;
+}
+
+
 
 @media only screen and (max-width: 700px) {
     .nav-ul {
@@ -264,5 +302,24 @@ section {
 
     .avatar {
         width: 130px;
+    }
+
+    input {
+        margin: 5px;
+        padding: 5px;
+        width: 250px;
+        height: 30px;
+        font-size: 16px;
+    }
+    
+    textarea {
+        margin: 5px;
+        width: 250px;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .br-1 {
+        display: grid;
     }
 }
