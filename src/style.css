@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
 }
 
 .container {
@@ -220,7 +221,7 @@ section {
 
 /* Contact */
 form {
-    margin: 0 0 40px 0;
+    margin: 100px 0 120px 0;
 }
 
 form h2 {
@@ -259,6 +260,40 @@ input:focus, textarea:focus{
 }
 
 
+/* Footer */
+footer {
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul a {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.made-by p {
+    margin: 10px;
+    color: #00000086;
+    font-size: 10px;
+}
+
+.made-by a {
+    color: #00000086;
+    text-decoration: none;
+}
+
 
 @media only screen and (max-width: 700px) {
     .logo {
@@ -279,6 +314,10 @@ input:focus, textarea:focus{
         display: flex;
     }
 
+    .nav-ul a {
+        font-size: 18px;
+    }
+
     .hamburger {
         display: block;
         margin: 5px;
@@ -287,6 +326,7 @@ input:focus, textarea:focus{
     .hero-info {
         margin: 0 15px 30px 15px;
         max-width: max-content;
+        font-size: 18px;
     }
 
     .hero-info p {
@@ -326,6 +366,11 @@ input:focus, textarea:focus{
     .about-info {
         margin: 30px;
         max-width: max-content;
+        font-size: 18px;
+    }
+
+    .about-info h2 {
+        font-size: 30px;
     }
 
     .about-info p {
@@ -335,9 +380,13 @@ input:focus, textarea:focus{
     .avatar {
         width: 130px;
     }
+    form {
+        margin: 20px 0 80px 0;
+    }
 
     form h2 {
         margin-left: 5px;
+        font-size: 30px;
     }
 
     input {
@@ -345,7 +394,7 @@ input:focus, textarea:focus{
         padding: 5px;
         width: 270px;
         height: 30px;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .br-1 {
@@ -356,10 +405,18 @@ input:focus, textarea:focus{
         margin: 5px;
         width: 270px;
         height: 60px;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .submit {
         margin-left: 5px;
+    }
+
+    footer ul a {
+        font-size: 25px;
+    }
+
+    .made-by p {
+        font-size: 13px;
     }
 }
