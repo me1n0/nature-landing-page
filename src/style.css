@@ -14,14 +14,13 @@ body {
     margin-bottom: 0;
 }
 
+/* Nav Bar */
 .container {
-    padding: 0 20px 0 20px;
+    padding: 0 10px 0 10px;
     margin: 0 auto;
     max-width: 100%;
-    width: 1200px;
 }
 
-/* Nav Bar */
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -65,6 +64,9 @@ nav {
 }
 
 @media only screen and (max-width: 700px) {
+    .container {
+        padding: 0 10px 0 10px;
+    }
     nav {
         margin-top: 10px;
     }
@@ -137,11 +139,11 @@ nav {
     .hero h1 {
         font-size: 40px;
         margin-top: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .hero-info p {
-        margin: 0px;
+        margin: 0 0 30px;
     }
 
     .hero-img {
@@ -255,6 +257,7 @@ nav {
         width: 160px;
         height: 45px;
         line-height: 45px;
+        padding-bottom: 30px;
     }
 
     .hero-btn a {
