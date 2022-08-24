@@ -65,14 +65,13 @@ nav {
 
 @media only screen and (max-width: 700px) {
     .container {
-        padding: 0 10px 0 10px;
-    }
-    nav {
-        margin-top: 10px;
+        padding: 12px;
     }
 
     .logo {
-        margin: 5px;
+        margin: 0;
+        padding: 0;
+        height: 50px;
     }
 
     .nav-ul {
@@ -92,7 +91,9 @@ nav {
 
     .hamburger {
         display: block;
-        margin: 5px;
+        margin: 0;
+        padding: 0;
+        font-size: 35px;
     }
 }
 
