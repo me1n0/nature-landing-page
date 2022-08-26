@@ -136,7 +136,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin: 12px;
+    padding: 15px;
 }
 
 .hero-info {
@@ -165,7 +165,7 @@ body {
 
 @media only screen and (max-width: 700px) {
     .hero-info {
-        margin: 80px 0 30px;
+        margin: 80px 0 30px 5px;
         max-width: max-content;
         font-size: 18px;
     }
@@ -178,6 +178,7 @@ body {
 
     .hero-info p {
         margin: 0 0 30px;
+        width: 310px;
     }
 
     .hero-img {
@@ -351,6 +352,7 @@ section{
     
     .about-info p {
         margin: 15px 0 0 0;
+        width: 310px;
     }
 }
 
